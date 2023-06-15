@@ -35,6 +35,10 @@ window.onload = function() {
         window.location.reload()
     });
 
+    const nameInput = document.getElementById("nameInput").value;
+    document.querySelector("span#nameOutput").innerText = nameInput;
+
+
 
 }
 }

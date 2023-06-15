@@ -12,6 +12,10 @@
     <h1>Programming Language Suggester</h1>
     <p>Which programming language should you learn? Take the quiz and find out!</p>
     <form>
+        <label for="name">Please enter your name:</label>
+        <input type="text" id="nameInput">
+        <br>
+        <br>
         <p>What are you more interested in?</p>
             <input type="radio" id="web" name="question1" value="4">
             <label for="web">Web Development</label><br>
@@ -62,17 +66,15 @@
         </form>
 
         <div id="javascript" class="hidden">
-            <h2>Result: Javascript</h2>
+            <h2>Result: <span id="nameOutput">____</span>, you should totally learn Javascript!</h2>
         </div>
         <div id="c#" class="hidden">
-            <h2>Result: C#</h2>
+            <h2>Result: <span id="nameOutput">____</span>, you should totally learn C#!</h2>
         </div>
         <div id="python" class="hidden">
-            <h2>Result: Python</h2>
+            <h2>Result: <span id="nameOutput">____</span>, you should totally learn Python!</h2>
         </div>
-        <div id="error" class="hidden">
-            <h2>Answer the questions!</h2>
-        </div>
+
         <button type="button" id="reset" class="hidden">Take the quiz again</button>
     
 </body>
