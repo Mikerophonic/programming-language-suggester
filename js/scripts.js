@@ -36,7 +36,9 @@ window.onload = function() {
     });
 
     const nameInput = document.getElementById("nameInput").value;
-    document.querySelector("span#nameOutput").innerText = nameInput;
+    document.querySelector("span#nameOutput1").innerText = nameInput;
+    document.querySelector("span#nameOutput2").innerText = nameInput;
+    document.querySelector("span#nameOutput3").innerText = nameInput;
 
 
 
