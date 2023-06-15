@@ -12,7 +12,7 @@
 
 ## Description
 
-This was created as my second independent project for Epicodus. The goal was to creat a webpage to help the user choose a programming language to learn. Here are the main objectives:
+This was created as my second independent project for Epicodus. The goal was to create an application for people interested in coding to decide which language they should learn first. Here are the main objectives:
 * Include a form with a minimum of 5 survey questions.
 * Offer a minimum of 3 different language suggestions.
 * One branch should return one result. It shouldn't be possible to be suggested two languages at once.
@@ -22,7 +22,7 @@ This was created as my second independent project for Epicodus. The goal was to 
 
 * Just run in your browser.
 
-[Github Pages - portfolio](https://mikerophonic.github.io/programming-language-suggester)
+[Github Pages -Programming Language Suggester](https://mikerophonic.github.io/programming-language-suggester)
 
 ## Known Bugs
 
