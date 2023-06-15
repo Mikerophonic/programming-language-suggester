@@ -12,54 +12,55 @@
     <p>Which programming language should you learn? Take the quiz and find out!</p>
     <form>
         <p>What are you more interested in?</p>
-            <input type="radio" id="web" name="interest">
+            <input type="radio" id="web" name="question1" value="4">
             <label for="web">Web Development</label><br>
-            <input type="radio" id="app" name="interest">
+            <input type="radio" id="app" name="question1" value="2">
             <label for="app">Mobile App Development</label><br>
-            <input type="radio" id="data" name="interest">
+            <input type="radio" id="data" name="question1" value="6">
             <label for="data">Data Analytics</label>
         <br>
         <br>
         <p>Which company would you rather work at?</p>
-            <input type="radio" id="facebook" name="company">
+            <input type="radio" id="facebook" name="question2" value="4">
             <label for="facebook">Facebook</label><br>
-            <input type="radio" id="microsoft" name="company">
+            <input type="radio" id="microsoft" name="question2" value="2">
             <label for="microsoft">Microsoft</label><br>
-            <input type="radio" id="google" name="company">
+            <input type="radio" id="google" name="question2" value="6">
             <label for="google">Google</label>
         <br>
         <br>
         <p>How important is it to start with an "easy-to-learn" language?</p>
-            <input type="radio" id="not" name="easy">
+            <input type="radio" id="not" name="question3" value="2">
             <label for="not">not important (Give me a challenge!)</label><br>
-            <input type="radio" id="little" name="easy">
+            <input type="radio" id="little" name="question3" value="4">
             <label for="little">somewhat important</label><br>
-            <input type="radio" id="very" name="easy">
+            <input type="radio" id="very" name="question3" value="6">
             <label for="very">very important (HALP! I don't know what's going on.)</label>
         <br>
         <br>
         <p>How important is a high salary?</p>
-            <input type="radio" id="not2" name="salary">
+            <input type="radio" id="not2" name="question4" value="2">
             <label for="not2">not important (I do it for the love.)</label><br>
-            <input type="radio" id="little2" name="salary">
+            <input type="radio" id="little2" name="question4" value="4">
             <label for="little2">somewhat important</label><br>
-            <input type="radio" id="very2" name="salary">
+            <input type="radio" id="very2" name="question4" value="6">
             <label for="very2">very important (Give me $$$$$$!)</label>
         <br>
         <br>
         <p>What group of Lord of the Rings characters do you most identify with?</p>
-            <input type="radio" id="elves" name="lotr">
+            <input type="radio" id="elves" name="question5" value="2">
             <label for="elves">Elves</label><br>
-            <input type="radio" id="ents" name="lotr">
+            <input type="radio" id="ents" name="question5" value="6">
             <label for="ents">Ents</label><br>
-            <input type="radio" id="hobbits" name="lotr">
+            <input type="radio" id="hobbits" name="question5" value="4">
             <label for="hobbits">Hobbits</label>
         <br>
         <br>
+
         <button type="submit">Submit</button>
         </form>
 
-        <div id="javscript" class="hidden">
+        <div id="javascript" class="hidden">
             <h2>Javascript</h2>
         </div>
         <div id="c#" class="hidden">
@@ -67,6 +68,9 @@
         </div>
         <div id="python" class="hidden">
             <h2>Python</h2>
+        </div>
+        <div id="error" class="hidden">
+            <h2>Answer the questions!</h2>
         </div>
     
 </body>
