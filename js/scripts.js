@@ -13,20 +13,31 @@ window.onload = function() {
       const javascript = document.getElementById("javascript");
       const cSharp = document.getElementById("c#");
       const python = document.getElementById("python");
-      const error = document.getElementById("error");
+      const reset = document.getElementById("reset");
 
       if (result >= 24) {
             python.removeAttribute("class");
+            form.setAttribute("class", "hidden");
+            reset.removeAttribute("class");
       } else if (result >= 17) {
             javascript.removeAttribute("class");
+            form.setAttribute("class", "hidden");
+            reset.removeAttribute("class");
+
       } else if (result >= 10) {
             cSharp.removeAttribute("class");
-      }  else {
-            error.removeAttribute("class");
-        }
+            form.setAttribute("class", "hidden");
+            reset.removeAttribute("class");
     }
-}
 
+    let resetBtn = document.querySelector("button#reset");
+    resetBtn.addEventListener("click", function() {
+        window.location.reload()
+    });
+
+
+}
+}
 
 
 //points: 
