@@ -44,9 +44,3 @@ window.onload = function() {
 
 }
 }
-
-
-//points: 
-/* C# - 10 to 16 
-JS - 17 to 23
-Python - 24 to 30*/

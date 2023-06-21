@@ -20,9 +20,10 @@ This was created as my second independent project for Epicodus. The goal was to 
 
 ## Setup/Installation Requirements
 
-* Just run in your browser.
+* Clone this repository to your local machine: $ git clone https://github.com/Mikerophonic/programming-language-suggester.git
+* Open index.html in a web browser.
 
-[Github Pages -Programming Language Suggester](https://mikerophonic.github.io/programming-language-suggester)
+[Github Pages - Programming Language Suggester](https://mikerophonic.github.io/programming-language-suggester)
 
 ## Known Bugs
 
@@ -30,6 +31,8 @@ This was created as my second independent project for Epicodus. The goal was to 
 
 ## License
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 Copyright (c) _2023_ _Michael G Connelly_
